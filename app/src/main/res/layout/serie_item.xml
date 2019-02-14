@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <!-- Image -->
+    <!--
+    <ImageView
+        android:id="@+id/serie_item_image"
+        android:src="@drawable/ic_ondemand_video_black_24dp"
+        style="@style/ItemImageStyle"/>
+    -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical">
+        <!-- Title -->
+        <TextView
+            android:id="@+id/serie_item_title_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/serie_title_item"
+            style="@style/ItemTextViewStyle" />
+
+        <!-- Value -->
+        <!--
+       <TextView
+           android:id="@+id/serie_item_value_label"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/serie_value_item"
+           style="@style/ItemTextViewStyle"/>
+        -->
+   </LinearLayout>
+</LinearLayout>

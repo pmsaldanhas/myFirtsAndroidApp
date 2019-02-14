@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorBackground_launchpadScreen">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:isScrollContainer="true">
+            <TextView
+                android:id="@+id/launchpad_screen_list_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/launchpad_screen_list_textlabel"
+                style="@style/ItemTextViewStyle" />
+            <!-- MOVIES Button -->
+            <Button
+                android:id="@+id/launchpad_screen_movies_button"
+                style="@style/ActionButtonStyle"
+                android:text="@string/launchpad_screen_movies_button"
+                />
+            <!-- SERIES Button -->
+            <Button
+                android:id="@+id/launchpad_screen_series_button"
+                style="@style/ActionButtonStyle"
+                android:text="@string/launchpad_screen_series_button"
+                />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:isScrollContainer="true">
+            <TextView
+                android:id="@+id/launchpad_screen_search_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/launchpad_screen_search_textlabel"
+                style="@style/ItemTextViewStyle" />
+            <!--SEARCH MOVIE-->
+            <Button
+                android:id="@+id/launchpad_screen_search_movie_button"
+                style="@style/ActionButtonStyle"
+                android:text="@string/launchpad_screen_search_movie_button"
+                android:drawableStart="@drawable/ic_search_black_24dp"
+                />
+
+            <!--SEARCH SERIE-->
+            <Button
+                android:id="@+id/launchpad_screen_search_serie_button"
+                style="@style/ActionButtonStyle"
+                android:text="@string/launchpad_screen_search_serie_button"
+                android:drawableStart="@drawable/ic_search_black_24dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

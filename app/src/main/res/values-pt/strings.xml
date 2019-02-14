@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="launchpad_screen_movies_button">Movies</string>
+    <string name="launchpad_screen_series_button">TV Series</string>
+    <string name="search_movie_text">Search Your Movies</string>
+    <string name="launchpad_screen_search_movie_button">Movies</string>
+
+    <string name="search_series_text">Search Your Series</string>
+    <string name="launchpad_screen_search_serie_button">TV Series</string>
+
+    <string name="movie_row_item">ROW</string>
+    <string name="movie_title_item">TITLE</string>
+    <string name="movie_value_item">VALUE</string>
+
+    <string name="serie_row_item">ROW</string>
+    <string name="serie_title_item">TITLE</string>
+    <string name="serie_value_item">VALUE</string>
+
+    <string name="detail_title_item">TITLE</string>
+    <string name="detail_description_item">DESCRIPTION</string>
+    <string name="detail_description_label">DESCRIPTION: </string>
+    <string name="detail_ranking_item">RANKING</string>
+    <string name="detail_ranking_label">VOTE AVERAGE: </string>
+
+    <string name="launchpad_screen_list_textlabel">LISTS:</string>
+    <string name="launchpad_screen_search_textlabel">SEARCH:</string>
+
+    <string name="detail_datehour_item">DATE/HOUR</string>
+
+    <string name="first_launch_screen_welcome">Welcome</string>
+    <string name="footer_movies_text_btincrease">...</string>
+    <string name="footer_series_text_btincrease">...</string>
+
+    <string name="footer_search_movies_text_btincrease">...</string>
+    <string name="footer_search_series_text_btincrease">...</string>
+
+    <string name="pageNumberOneMovies">1</string>
+    <string name="pageNumberOneSeries">1</string>
+
+    <string name="pageNumberOneSearchMovies">1</string>
+    <string name="pageNumberOneSearchSeries">1</string>
+
+    <string name="async_task_lang">pt</string>
+    <string name="wifiNoAvailable">Offline</string>
+    <string name="wifiAvailable">Online</string>
+    <string name="detail_play">Play</string>
+    <string name="detail_pause">Pause</string>
+    <string name="detail_movie_trailer"> Trailer - YouTube</string>
+
+    <string name="errorMovieTrailer">Trailer can not be loaded</string>
+    <string name="errorSerieTrailer">Trailer can not be loaded</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="movies.flag.pt.moviesapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_local_movies_black_24dp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:name=".MoviesApplication">
+
+        <!-- Activities Declaration -->
+
+        <activity android:name=".screens.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".screens.FirstLaunchScreen" />
+        <activity android:name=".screens.LaunchpadScreen" />
+        <activity android:name=".screens.MoviesScreen" />
+        <activity android:name=".screens.SeriesScreen" />
+        <activity android:name=".screens.SearchMoviesScreen" />
+        <activity android:name=".screens.DetailPageMovie" />
+        <activity android:name=".screens.DetailPageMovieTrailer" />
+        <activity android:name=".screens.SearchSeriesScreen" />
+        <activity android:name=".screens.DetailPageSerie" />
+        <activity android:name=".screens.DetailPageSerieTrailer" />
+
+        <meta-data android:name="DATABASE" android:value="movies.db" />
+        <meta-data android:name="VERSION" android:value="1" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="movies.flag.pt.moviesapp.db" />
+
+    </application>
+
+</manifest>
